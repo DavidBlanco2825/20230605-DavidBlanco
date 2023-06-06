@@ -1,0 +1,5 @@
+CPU
+GPU
+Motherboard
+Primery Memory
+Secondary Memory

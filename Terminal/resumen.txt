@@ -1,0 +1,5 @@
+mkdir for creating directories
+touch for creating files
+cd for changing directories
+nano fileName.txt to edit txt files
+rm to delete

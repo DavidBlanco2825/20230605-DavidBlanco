@@ -1,0 +1,34 @@
+    1  git init
+    2  git branch -M main
+    3  git remote add origin https://github.com/DavidBlanco2825/20230605-DavidBlanco.git
+    4  touch comandos.txt main.js index.html
+    5  git add .
+    6  git commit -m "commit 01 davidBlanco"
+    7  git push origin main
+    8  git branch feature01
+    9  git checkout feature01 
+   10  mkdir Terminal Hardware
+   11  cd Terminal/
+   12  touch resumen.txt
+   13  cp resumen.txt ../Hardware/
+   14  cd ..
+   15  git add .
+   16  git status
+   17  git commit -m "commit 02 davidBlanco"
+   18  git push origin feature01 
+   19  git branch feature02
+   20  git checkout feature02
+   21  cd Terminal/
+   22  nano resumen.txt 
+   23  cd ..
+   24  cd Hardware/
+   25  nano resumen.txt 
+   26  cd ..
+   27  git add .
+   28  git status
+   29  git commit -m "commit 03 davidBlanco"
+   30  git push origin feature02
+   31  git checkout origin
+   32  git checkout main
+   33  mv comandos.txt comandosUtilizados.txt
+   34  history > comandosUtilizados.txt 
